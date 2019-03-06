@@ -16,7 +16,7 @@ public class Teacher extends Person{
 	}
 	
 	void exceptChildInMyGroup(Child child) {
-		System.out.println(super.getName() + " exepted " + child.getName() + " in group "  + this.group.toString());
+		System.out.println(super.getName() + " accepted " + child.getName() + " in group "  + this.group.toString());
 		this.childrenInMyGroup.add(child);
 	}
 
